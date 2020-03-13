@@ -1,0 +1,50 @@
+/*Estilização para a pagina toda*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilização do Box Model*/
+h1{
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+    margin: 50px;
+    padding: 30px;
+    width: 300px;
+    height: 40px;
+}
+
+/*Estilizando por hierarquia*/
+ul li{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/*Estilizando por hierarquia*/
+ol li {
+    color: blue;
+}
+
+/*Pseudoclasse padrão*/
+a:link{
+    color: red;
+}
+
+/*Pseudoclasse muda ao passar o cusor por cima*/
+a:hover{
+    color: black;
+    font-size: 20px;
+}
+
+/*Pseudoclasse muda ao ficar clicado*/
+a:active{
+    color: green;
+    font-size: 25px;
+}
+
+/*Pseudoclasse muda ao já ter cido visitado*/
+a:visited{
+    color: yellow;
+    font-size: 13px;
+}
